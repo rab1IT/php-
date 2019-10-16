@@ -1,6 +1,6 @@
 <?php
 
-$time = data ('G');
+$time = date ('G');
 
 if($time <12){
     echo '今午前です';
