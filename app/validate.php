@@ -4,7 +4,9 @@
 <html>
 <head>
 <style type="text/css">
-<link rel="stylesheet" href="validate.css">
+.center{text-align:center;}
+input{margin:5px;}
+</style>
 </head>
 <body>
     <div class ="center">
