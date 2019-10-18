@@ -1,11 +1,14 @@
 <?php
 //ポスト内容を取得し、入力値が正しいか検証する。
+$movie = '';
+if($_SERVER['REQUEST_METHOD'] === 'POST'){
 $movie = $_POST['movie'];
+
 if(mb_strlen($movie) === 0){
     $err = '文字を入力してください';
 }elseif(mb_strlen($movie) > 20){
     $err = '20文字以内で入力してください';
-}
+}}
 ?>
 <html>
 <head>
